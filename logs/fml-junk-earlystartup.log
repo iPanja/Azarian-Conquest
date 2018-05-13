@@ -1,12 +1,12 @@
-[12:08:12] [main/INFO] [GradleStart]: Extra: []
-[12:08:12] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/nickg/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[12:08:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[12:08:12] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[12:08:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[12:08:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[12:08:32] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 247915243 nanos
-[12:08:34] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[12:08:35] [Forge Version Check/DEBUG] [ForgeVersionCheck]: [forge] Received version check data:
+[12:41:13] [main/INFO] [GradleStart]: Extra: []
+[12:41:14] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/nickg/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[12:41:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:41:14] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:41:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[12:41:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:41:37] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 664631196 nanos
+[12:41:41] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[12:41:41] [Forge Version Check/DEBUG] [ForgeVersionCheck]: [forge] Received version check data:
 {
   "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
   "promos": {
@@ -50,4 +50,4 @@
     "recommended": "14.23.3.2655"
   }
 }
-[12:08:35] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Found status: AHEAD Target: null
+[12:41:41] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Found status: AHEAD Target: null
