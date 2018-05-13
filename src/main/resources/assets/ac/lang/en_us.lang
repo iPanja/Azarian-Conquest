@@ -1,6 +1,15 @@
 #Item Localization
 #Food
 item.glazedDonut.name=Glazed Donut
+item.amaranth.name=Amaranth
+item.barley.name=Barley
+item.buckwheat.name=Buckwheat
+item.millet.name=Millet
+item.oats.name=Oats
+item.rice.name=Rice
+item.rye.name=Rye
+item.sorghum.name=Sorghum
+item.triticale.name=Triticale
 #Block Localization
 #Creative Tab Localization
 itemGroup.tabACFood=Foods of Conquest
