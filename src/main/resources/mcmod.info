@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "ac",
+  "name": "Azarian Conquest",
+  "description": "An Overhaul Mod Made By Project Azarius",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["IPanja", "Nickrocky213", "UlrichTheMighty"],
+  "credits": "Project Azarius",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

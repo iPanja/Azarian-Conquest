@@ -1,3 +1,13 @@
-[12:41:22] [main/INFO]: Setting user: Player713
-[12:41:32] [main/INFO]: LWJGL Version: 2.9.4
-[12:41:40] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Azarian Conquest
+[13:19:40] [main/INFO]: Setting user: Player624
+[13:19:45] [main/WARN]: Skipping bad option: lastServer:
+[13:19:45] [main/INFO]: LWJGL Version: 2.9.4
+[13:19:49] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Azarian Conquest
+[13:19:52] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:19:53] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[13:19:53] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:19:53] [Thread-5/INFO]: OpenAL initialized.
+[13:19:53] [Sound Library Loader/INFO]: Sound engine started
+[13:19:57] [main/INFO]: Created: 512x512 textures-atlas
+[13:19:59] [main/WARN]: Skipping bad option: lastServer:
+[13:19:59] [main/INFO]: Narrator library for x64 successfully loaded
+[13:20:00] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
