@@ -1,5 +1,5 @@
 package com.azarius.utils.enums.items;
-
+//UPDATE
 public enum FoodList {
 	
 	AMARANTH("amaranth", "ItemAmaranth");

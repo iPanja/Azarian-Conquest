@@ -18,7 +18,9 @@ public class ItemInit {
 public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	public static final ItemFood glazedDonut = new FoodBase(GeneralItemList.GLAZEDDONUT.getUnlocalizedName(), GeneralItemList.GLAZEDDONUT.getRegistryName(), 2, 0.3F, false, AzarianConquest.tabACFood);
-	public static final Item amaranth = new ItemBase(FoodList.AMARANTH.getUnlocalizedName(), FoodList.AMARANTH.getRegistryName());
+	//Register Foods
+		//Register Cereals
+		public static final Item amaranth = new ItemBase(FoodList.AMARANTH.getUnlocalizedName(), FoodList.AMARANTH.getRegistryName());
 	
 	@SubscribeEvent
 	public void onItemRegister(Register<Item> event) {
