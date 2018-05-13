@@ -15,7 +15,7 @@ import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-
+//TEST
 @Mod(modid = Reference.MODID, version = Reference.VERSION, name = Reference.NAME)
 public class AzarianConquest
 {
