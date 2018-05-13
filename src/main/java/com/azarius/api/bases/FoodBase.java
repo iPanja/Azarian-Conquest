@@ -1,14 +1,21 @@
 package com.azarius.api.bases;
 
+import com.azarius.AzarianConquest;
+import com.azarius.init.ItemInit;
+import com.azarius.utils.interfaces.IHasModel;
+
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemFood;
 
-public class FoodBase extends ItemFood{
+public class FoodBase extends ItemFood implements IHasModel{
 
-	public FoodBase(String unloc, String registry, int amount, float saturation, boolean isWolfFood) {
+	public FoodBase(String unloc, String registry, int amount, float saturation, boolean isWolfFood, CreativeTabs tab) {
 		super(amount, saturation, isWolfFood);
 		setUnlocalizedName(unloc);
 		setRegistryName(registry);
-		// TODO Auto-generated constructor stub
+		setCreativeTab(tab);
+		
+		ItemInit.ITEMS.add(this);
 	}
 	
 	public FoodBase(String unloc, String registry, int amount, boolean isWolfFood) {
@@ -16,7 +23,12 @@ public class FoodBase extends ItemFood{
 		setUnlocalizedName(unloc);
 		setRegistryName(registry);
 		
-		// TODO Auto-generated constructor stub
+		ItemInit.ITEMS.add(this);
+	}
+
+	@Override
+	public void registerModels() {
+		AzarianConquest.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 
 	
