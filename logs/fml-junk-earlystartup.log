@@ -3991,52 +3991,72 @@
 [14:06:29] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
 [14:07:14] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
 [14:07:59] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
-erStoppingEvent to mod FML
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
-[14:02:13] [Server thread/TRACE] [forge]: Sending event FMLServerStoppingEvent to mod forge
-[14:02:13] [Server thread/TRACE] [forge]: Sent event FMLServerStoppingEvent to mod forge
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
-[14:02:13] [Server thread/TRACE] [ac]: Sending event FMLServerStoppingEvent to mod ac
-[14:02:13] [Server thread/TRACE] [ac]: Sent event FMLServerStoppingEvent to mod ac
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Azarian Conquest took 0.000s
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopping took 0.019s
-[14:02:13] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
-[14:02:13] [Server thread/INFO] [FML]: Unloading dimension 0
-[14:02:13] [Server thread/INFO] [FML]: Unloading dimension -1
-[14:02:13] [Server thread/INFO] [FML]: Unloading dimension 1
-[14:02:13] [Server thread/DEBUG] [FML]: Reverting to frozen data state.
-[14:02:13] [Server thread/TRACE] [minecraft]: Sending event FMLModIdMappingEvent to mod minecraft
-[14:02:13] [Server thread/TRACE] [minecraft]: Sent event FMLModIdMappingEvent to mod minecraft
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.001s
-[14:02:13] [Server thread/TRACE] [mcp]: Sending event FMLModIdMappingEvent to mod mcp
-[14:02:13] [Server thread/TRACE] [mcp]: Sent event FMLModIdMappingEvent to mod mcp
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
-[14:02:13] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML
-[14:02:13] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
-[14:02:13] [Server thread/TRACE] [forge]: Sending event FMLModIdMappingEvent to mod forge
-[14:02:13] [Server thread/TRACE] [forge]: Sent event FMLModIdMappingEvent to mod forge
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.123s
-[14:02:13] [Server thread/TRACE] [ac]: Sending event FMLModIdMappingEvent to mod ac
-[14:02:13] [Server thread/TRACE] [ac]: Sent event FMLModIdMappingEvent to mod ac
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Azarian Conquest took 0.001s
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.125s
-[14:02:13] [Server thread/INFO] [FML]: Applying holder lookups
-[14:02:13] [Server thread/INFO] [FML]: Holder lookups applied
-[14:02:13] [Server thread/DEBUG] [FML]: Frozen state restored.
-[14:02:13] [Server thread/TRACE] [minecraft]: Sending event FMLServerStoppedEvent to mod minecraft
-[14:02:13] [Server thread/TRACE] [minecraft]: Sent event FMLServerStoppedEvent to mod minecraft
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.001s
-[14:02:13] [Server thread/TRACE] [mcp]: Sending event FMLServerStoppedEvent to mod mcp
-[14:02:13] [Server thread/TRACE] [mcp]: Sent event FMLServerStoppedEvent to mod mcp
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
-[14:02:13] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
-[14:02:13] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
-[14:02:13] [Server thread/TRACE] [forge]: Sending event FMLServerStoppedEvent to mod forge
-[14:02:13] [Server thread/TRACE] [forge]: Sent event FMLServerStoppedEvent to mod forge
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
-[14:02:13] [Server thread/TRACE] [ac]: Sending event FMLServerStoppedEvent to mod ac
-[14:02:13] [Server thread/TRACE] [ac]: Sent event FMLServerStoppedEvent to mod ac
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Azarian Conquest took 0.000s
-[14:02:13] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.003s
+[14:08:44] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:09:29] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:10:14] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:10:59] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:11:44] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:12:29] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:13:14] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:13:59] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:14:44] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:15:29] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:16:14] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:16:21] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:16:38] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:16:39] [Server thread/TRACE] [minecraft]: Sending event FMLServerStoppingEvent to mod minecraft
+[14:16:39] [Server thread/TRACE] [minecraft]: Sent event FMLServerStoppingEvent to mod minecraft
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft took 0.000s
+[14:16:39] [Server thread/TRACE] [mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[14:16:39] [Server thread/TRACE] [mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[14:16:39] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod FML
+[14:16:39] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod FML
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[14:16:39] [Server thread/TRACE] [forge]: Sending event FMLServerStoppingEvent to mod forge
+[14:16:39] [Server thread/TRACE] [forge]: Sent event FMLServerStoppingEvent to mod forge
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[14:16:39] [Server thread/TRACE] [ac]: Sending event FMLServerStoppingEvent to mod ac
+[14:16:39] [Server thread/TRACE] [ac]: Sent event FMLServerStoppingEvent to mod ac
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Azarian Conquest took 0.000s
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopping took 0.001s
+[14:16:39] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save New World
+[14:16:39] [Server thread/INFO] [FML]: Unloading dimension 0
+[14:16:39] [Server thread/INFO] [FML]: Unloading dimension -1
+[14:16:39] [Server thread/INFO] [FML]: Unloading dimension 1
+[14:16:39] [Server thread/DEBUG] [FML]: Reverting to frozen data state.
+[14:16:39] [Server thread/TRACE] [minecraft]: Sending event FMLModIdMappingEvent to mod minecraft
+[14:16:39] [Server thread/TRACE] [minecraft]: Sent event FMLModIdMappingEvent to mod minecraft
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.000s
+[14:16:39] [Server thread/TRACE] [mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[14:16:39] [Server thread/TRACE] [mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[14:16:39] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML
+[14:16:39] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[14:16:39] [Server thread/TRACE] [forge]: Sending event FMLModIdMappingEvent to mod forge
+[14:16:39] [Server thread/TRACE] [forge]: Sent event FMLModIdMappingEvent to mod forge
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.783s
+[14:16:39] [Server thread/TRACE] [ac]: Sending event FMLModIdMappingEvent to mod ac
+[14:16:39] [Server thread/TRACE] [ac]: Sent event FMLModIdMappingEvent to mod ac
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Azarian Conquest took 0.000s
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.784s
+[14:16:39] [Server thread/INFO] [FML]: Applying holder lookups
+[14:16:39] [Server thread/INFO] [FML]: Holder lookups applied
+[14:16:39] [Server thread/DEBUG] [FML]: Frozen state restored.
+[14:16:39] [Server thread/TRACE] [minecraft]: Sending event FMLServerStoppedEvent to mod minecraft
+[14:16:39] [Server thread/TRACE] [minecraft]: Sent event FMLServerStoppedEvent to mod minecraft
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.000s
+[14:16:39] [Server thread/TRACE] [mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[14:16:39] [Server thread/TRACE] [mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[14:16:39] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[14:16:39] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[14:16:39] [Server thread/TRACE] [forge]: Sending event FMLServerStoppedEvent to mod forge
+[14:16:39] [Server thread/TRACE] [forge]: Sent event FMLServerStoppedEvent to mod forge
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[14:16:39] [Server thread/TRACE] [ac]: Sending event FMLServerStoppedEvent to mod ac
+[14:16:39] [Server thread/TRACE] [ac]: Sent event FMLServerStoppedEvent to mod ac
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Azarian Conquest took 0.000s
+[14:16:39] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.001s
