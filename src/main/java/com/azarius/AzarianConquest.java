@@ -34,7 +34,7 @@ public class AzarianConquest
 	public static CommonProxy proxy;
     
 	
-    @SuppressWarnings("deprecation") //Yeah ik i just can't be bothered to code it the other way...
+    @SuppressWarnings("deprecation") //Yeah I know I just can't be bothered to code it the other way...
 	@EventHandler
     public void preInit(FMLPreInitializationEvent e) {
     	FMLCommonHandler.instance().bus().register(handler);
