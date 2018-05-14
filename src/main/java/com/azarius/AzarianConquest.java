@@ -1,5 +1,6 @@
 package com.azarius;
 
+import com.azarius.init.BlockInit;
 import com.azarius.init.ItemInit;
 import com.azarius.proxy.CommonProxy;
 import com.azarius.utils.ACEventHandler;
@@ -17,8 +18,6 @@ import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import scala.collection.concurrent.Debug;
-//TEST
 @Mod(modid = Reference.MODID, version = Reference.VERSION, name = Reference.NAME)
 public class AzarianConquest
 {
