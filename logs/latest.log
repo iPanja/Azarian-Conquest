@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [19:04:52] [main/INFO]: Setting user: Player535
 [19:04:55] [main/WARN]: Skipping bad option: lastServer:
 [19:04:55] [main/INFO]: LWJGL Version: 2.9.4
@@ -71,3 +72,9 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 [19:06:32] [main/INFO]: Stopping!
 [19:06:32] [main/INFO]: SoundSystem shutting down...
 [19:06:32] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+=======
+[18:47:32] [main/INFO]: Setting user: Player204
+[18:47:37] [main/WARN]: Skipping bad option: lastServer:
+[18:47:37] [main/INFO]: LWJGL Version: 2.9.4
+[18:47:40] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Azarian Conquest
+>>>>>>> 88bc5f12ee755306a2eaf87c52f4ea76b4ad6911

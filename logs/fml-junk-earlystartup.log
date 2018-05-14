@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [19:04:48] [main/INFO] [GradleStart]: Extra: []
 [19:04:48] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Fletcher/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
 [19:04:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
@@ -6,6 +7,17 @@
 [19:04:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
 [19:04:58] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
 [19:04:58] [Forge Version Check/DEBUG] [ForgeVersionCheck]: [forge] Received version check data:
+=======
+[18:47:28] [main/INFO] [GradleStart]: Extra: []
+[18:47:28] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/nickg/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:47:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:47:28] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:47:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:47:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:47:40] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 154854867 nanos
+[18:47:41] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18:47:41] [Forge Version Check/DEBUG] [ForgeVersionCheck]: [forge] Received version check data:
+>>>>>>> 88bc5f12ee755306a2eaf87c52f4ea76b4ad6911
 {
   "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
   "promos": {
@@ -49,6 +61,7 @@
     "recommended": "14.23.3.2655"
   }
 }
+<<<<<<< HEAD
 [19:04:58] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Found status: AHEAD Target: null
 [19:04:58] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 73345402 nanos
 [19:05:11] [Server thread/TRACE] [minecraft]: Sending event FMLServerAboutToStartEvent to mod minecraft
@@ -4069,3 +4082,6 @@
 [19:06:31] [Server thread/TRACE] [ac]: Sent event FMLServerStoppedEvent to mod ac
 [19:06:31] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Azarian Conquest took 0.000s
 [19:06:31] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.001s
+=======
+[18:47:41] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Found status: AHEAD Target: null
+>>>>>>> 88bc5f12ee755306a2eaf87c52f4ea76b4ad6911

@@ -1,6 +1,5 @@
 package com.azarius;
 
-import com.azarius.init.BlockInit;
 import com.azarius.init.ItemInit;
 import com.azarius.proxy.CommonProxy;
 import com.azarius.utils.ACEventHandler;
@@ -61,6 +60,7 @@ public class AzarianConquest
     	
     } 
     
+<<<<<<< HEAD
     @SubscribeEvent
     public void RightClickBlock(PlayerInteractEvent.RightClickItem event) {
     	//Load World Configuration
@@ -70,4 +70,6 @@ public class AzarianConquest
 		data.writeToNBT(nbt);
 		Console.out().println("Yeet is now at: " + nbt.getInteger("Yeet"));
     }
+=======
+>>>>>>> 88bc5f12ee755306a2eaf87c52f4ea76b4ad6911
 }
