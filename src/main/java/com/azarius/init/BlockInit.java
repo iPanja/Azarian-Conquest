@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.azarius.api.bases.BlockBase;
+import com.azarius.role.professions.processing.smithing.block.BlockBloomery;
 import com.azarius.utils.enums.blocks.OreList;
 
 import net.minecraft.block.Block;
@@ -15,7 +16,7 @@ public class BlockInit {
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
 	public static final Block EZBATATHORE = new BlockBase(OreList.EZBATATH.getUnlocalizedName(), OreList.EZBATATH.getRegistryName(), Material.ROCK);
-	
+	public static final Block BLOOMERY = new BlockBloomery();
 	
 	@SubscribeEvent
 	public void onBlockRegister(Register<Block> event) {
