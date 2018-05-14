@@ -5,9 +5,13 @@ import com.azarius.proxy.CommonProxy;
 import com.azarius.utils.ACEventHandler;
 import com.azarius.utils.Reference;
 import com.azarius.utils.parser.PlayerInfo;
+import com.azarius.utils.worlddata.DataHandler;
+import com.azarius.utils.worlddata.WorldData;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
@@ -31,33 +35,27 @@ public class AzarianConquest
 	public static ACEventHandler handler = new ACEventHandler();
 	
     @Instance
-	public static AzarianConquest instance = new AzarianConquest();;
+	public static AzarianConquest instance = new AzarianConquest();
 	
 	@SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
 	public static CommonProxy proxy;
     
+	//Data Handling
+	DataHandler dataHandler;
 	
     @SuppressWarnings("deprecation") //Yeah I know I just can't be bothered to code it the other way...
 	@EventHandler
     public void preInit(FMLPreInitializationEvent e) {
     	FMLCommonHandler.instance().bus().register(handler);
 		MinecraftForge.EVENT_BUS.register(handler);
-		//Load JSON Files
-		System.out.println("Working Directory: " + System.getProperty("user.dir"));
 		
-		PlayerInfo playerInfo = new PlayerInfo();
-		playerInfo.loadJson();
+		//Load World Configuration
+		WorldData data = new WorldData();
+		data = data.getInstance(Minecraft.getMinecraft().world);
+		NBTTagCompound nbt = new NBTTagCompound();
+		nbt.setInteger("Yeet", 2);
+		data.writeToNBT(nbt);
 		
-		/*
-		if(playerInfo == null) {
-			Debug.log("Error - JSON Parsed Object is null!");
-		}else {
-			System.out.println("Player's Name: " + playerInfo.username);
-			System.out.println("Player's Profession: " + playerInfo.profession);
-			System.out.println("Player's XP: " + playerInfo.xp);
-			System.out.println("Player's Balance: " + playerInfo.money);
-		}
-		*/
     }
 	@EventHandler
     public void init(FMLInitializationEvent e){
@@ -67,4 +65,7 @@ public class AzarianConquest
     public void postInit(FMLPostInitializationEvent e) {
     	
     }
+    
+    @SubscribeEvent
+    public void 
 }
