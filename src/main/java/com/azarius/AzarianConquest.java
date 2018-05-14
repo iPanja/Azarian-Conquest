@@ -1,11 +1,9 @@
 package com.azarius;
 
-import com.azarius.init.BlockInit;
 import com.azarius.init.ItemInit;
 import com.azarius.proxy.CommonProxy;
 import com.azarius.utils.ACEventHandler;
 import com.azarius.utils.Reference;
-import com.azarius.utils.parser.PlayerInfo;
 import com.azarius.utils.worlddata.DataHandler;
 import com.azarius.utils.worlddata.WorldData;
 
@@ -65,6 +63,4 @@ public class AzarianConquest
     	
     }
     
-    @SubscribeEvent
-    public void 
 }
