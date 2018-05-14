@@ -16,7 +16,8 @@ public enum OreList {
 	FALVERITE("falverite", "OreFalverite"),
 	UIRIAN("uirian", "OreUirian"),
 	DEIRITE("deirite", "OreDeirite"),
-	ZIX("zix", "OreZix");
+	ZIX("zix", "OreZix"),
+	EZBATATH("ezbatath", "OreEzbatath");
 	
 	private String unloc;
 	private String registry;

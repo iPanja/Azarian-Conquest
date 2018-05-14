@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "mf3:blocks/ores/oreaurite"
+        "all": "ac:blocks/ezbatathore"
     }
 }
