@@ -5,7 +5,7 @@
 
 # Overview
 Azarian Conquest is a mod pack created by:
-* Nickrockey23
+* Nickrocky23
 * iPanja
 * UlrichTheMighty
 
