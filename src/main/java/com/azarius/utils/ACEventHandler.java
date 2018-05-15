@@ -1,21 +1,28 @@
 package com.azarius.utils;
 
-import net.minecraft.client.Minecraft;
-import net.minecraftforge.event.entity.EntityJoinWorldEvent;
-import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import com.azarius.utils.data.ACSave;
+
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.network.FMLNetworkEvent;
+import scala.Console;
 
 public class ACEventHandler {
+	
+	//Variables
+	ACSave save;
+	NBTTagCompound nbt = new NBTTagCompound();
+	
 	@SubscribeEvent
-    public void RightClickBlock(PlayerInteractEvent.RightClickItem event) {
-		if(event.getEntity() == Minecraft.getMinecraft().player) {
-			
-		}
-    }
-	@SubscribeEvent
-	public void EntityJoinWorldEvent(EntityJoinWorldEvent event) {
-		if(event.getEntity() == Minecraft.getMinecraft().player) {
-			
-		}
+	public void ServerConnectionFromClientEvent	(FMLNetworkEvent.ServerConnectionFromClientEvent event) {
+		Console.out().println("Event Ran");
+		save = ACSave.get(FMLCommonHandler.instance().getMinecraftServerInstance().getWorld(0));
+		nbt = save.writeToNBT(nbt);
+		
+		//Test
+		nbt.setInteger("Yeets", nbt.getInteger("Yeets")+1);
+		save.readFromNBT(nbt);
+		save.markDirty();
 	}
 }
