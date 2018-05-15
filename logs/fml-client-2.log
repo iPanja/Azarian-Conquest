@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [21:18:15] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
 [21:18:15] [main/INFO] [FML/]: Forge Mod Loader version 14.21.1.2443 for Minecraft 1.12 loading
 [21:18:15] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_131, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_131\jre
@@ -55,6 +56,8 @@
 [21:18:30] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.001s
 [21:18:30] [main/INFO] [FML/]: -- System Details --
 =======
+=======
+>>>>>>> d392199607fe67c24a2244a1fcfc45c6c29958a1
 [20:20:29] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
 [20:20:29] [main/INFO] [FML/]: Forge Mod Loader version 14.21.1.2443 for Minecraft 1.12 loading
 [20:20:29] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_131, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_131
@@ -110,6 +113,9 @@
 [20:20:35] [main/DEBUG] [FML/]: Vanilla freeze snapshot created
 [20:20:36] [main/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0.001s
 [20:20:36] [main/INFO] [FML/]: -- System Details --
+<<<<<<< HEAD
+>>>>>>> d392199607fe67c24a2244a1fcfc45c6c29958a1
+=======
 >>>>>>> d392199607fe67c24a2244a1fcfc45c6c29958a1
 Details:
 	Minecraft Version: 1.12
@@ -117,7 +123,11 @@ Details:
 	Java Version: 1.8.0_131, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
 <<<<<<< HEAD
+<<<<<<< HEAD
 	Memory: 698593424 bytes (666 MB) / 900726784 bytes (859 MB) up to 3780640768 bytes (3605 MB)
+=======
+	Memory: 664995520 bytes (634 MB) / 877658112 bytes (837 MB) up to 3810525184 bytes (3634 MB)
+>>>>>>> d392199607fe67c24a2244a1fcfc45c6c29958a1
 =======
 	Memory: 664995520 bytes (634 MB) / 877658112 bytes (837 MB) up to 3810525184 bytes (3634 MB)
 >>>>>>> d392199607fe67c24a2244a1fcfc45c6c29958a1
@@ -125,6 +135,7 @@ Details:
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 388.13' Renderer: 'GeForce GTX 980/PCIe/SSE2'
 [21:18:30] [main/INFO] [FML/]: MinecraftForge v14.21.1.2443 Initialized
@@ -622,6 +633,8 @@ Details:
 [21:18:46] [main/DEBUG] [FML/]: Bar Finished: Loading took 16.183s
 [21:19:03] [main/DEBUG] [FML/]: Overriding dimension: using 0
 =======
+=======
+>>>>>>> d392199607fe67c24a2244a1fcfc45c6c29958a1
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 390.77' Renderer: 'GeForce GTX 1080/PCIe/SSE2'
 [20:20:36] [main/INFO] [FML/]: MinecraftForge v14.21.1.2443 Initialized
 [20:20:36] [main/INFO] [FML/]: Replaced 921 ore ingredients
@@ -1119,4 +1132,7 @@ Details:
 [20:20:56] [main/INFO] [STDOUT/]: [com.azarius.utils.worlddata.WorldData:getInstance:51]: Creating a new World Configuration File
 [20:21:15] [main/DEBUG] [FML/]: Overriding dimension: using 0
 [20:21:15] [main/INFO] [STDOUT/]: [com.azarius.utils.worlddata.WorldData:getInstance:51]: Creating a new World Configuration File
+<<<<<<< HEAD
+>>>>>>> d392199607fe67c24a2244a1fcfc45c6c29958a1
+=======
 >>>>>>> d392199607fe67c24a2244a1fcfc45c6c29958a1
