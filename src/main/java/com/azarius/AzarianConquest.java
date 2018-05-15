@@ -4,7 +4,6 @@ import com.azarius.init.ItemInit;
 import com.azarius.proxy.CommonProxy;
 import com.azarius.utils.ACEventHandler;
 import com.azarius.utils.Reference;
-import com.azarius.utils.worlddata.WorldData;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
@@ -33,17 +32,12 @@ public class AzarianConquest
 	
 	@SidedProxy(clientSide = Reference.CLIENTPROXY, serverSide = Reference.COMMONPROXY)
 	public static CommonProxy proxy;
-    
-	//Data Handling
-	WorldData data;
 	
     @SuppressWarnings("deprecation") //Yeah I know I just can't be bothered to code it the other way...
 	@EventHandler
     public void preInit(FMLPreInitializationEvent e) {
     	FMLCommonHandler.instance().bus().register(handler);
 		MinecraftForge.EVENT_BUS.register(handler);
-		
-		data = new WorldData();
     }
 	@EventHandler
     public void init(FMLInitializationEvent e){
