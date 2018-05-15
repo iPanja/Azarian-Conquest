@@ -43,3 +43,14 @@ saves/New World/region/r.0.-1.mca
 saves/New World/session.lock
 usercache.json
 usernamecache.json
+usercache.json
+usercache.json
+usernamecache.json
+logs/latest.log
+logs/fml-junk-earlystartup.log
+logs/fml-client-latest.log
+logs/fml-client-3.log
+logs/fml-client-2.log
+logs/fml-client-1.log
+crash-reports/crash-2018-05-14_21.58.03-client.txt
+config/splash.properties

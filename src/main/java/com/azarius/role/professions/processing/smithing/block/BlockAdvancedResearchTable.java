@@ -1,8 +1,10 @@
 package com.azarius.role.professions.processing.smithing.block;
 
 import com.azarius.AzarianConquest;
+import com.azarius.client.gui.GuiHandler;
 import com.azarius.init.BlockInit;
 import com.azarius.init.ItemInit;
+import com.azarius.init.tileentity.TileEntityAResearchTable;
 import com.azarius.utils.Reference;
 import com.azarius.utils.interfaces.IHasModel;
 
@@ -12,9 +14,13 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.EnumHand;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
 public class BlockAdvancedResearchTable extends Block implements IHasModel, ITileEntityProvider{
@@ -49,6 +55,24 @@ public class BlockAdvancedResearchTable extends Block implements IHasModel, ITil
 	
 	@Override
 	public TileEntity createNewTileEntity(World worldIn, int meta) {
-		return null;
+		// TODO Auto-generated method stub
+		return new TileEntityAResearchTable();
+	}
+	
+	@Override
+	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn,
+			EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
+		if(!worldIn.isRemote) {
+			playerIn.openGui(AzarianConquest.instance, GuiHandler.ARESEARCHTABLE, worldIn, pos.getX(), pos.getY(), pos.getZ());
+		}
+		return super.onBlockActivated(worldIn, pos, state, playerIn, hand, facing, hitX, hitY, hitZ);
+	}
+	
+	@Override
+	public void onBlockClicked(World worldIn, BlockPos pos, EntityPlayer playerIn) {
+		if(playerIn.getHeldItemMainhand() != null) {
+			
+		}
+		super.onBlockClicked(worldIn, pos, playerIn);
 	}
 }
