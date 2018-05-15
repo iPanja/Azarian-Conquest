@@ -26,3 +26,31 @@ logs/
 saves/
 usernamecache.json
 *.log
+config/splash.properties
+logs/fml-client-1.log
+logs/fml-client-2.log
+logs/fml-client-3.log
+logs/fml-client-latest.log
+logs/fml-junk-earlystartup.log
+logs/latest.log
+saves/New World/data/villages.dat
+saves/New World/DIM-1/data/villages_nether.dat
+saves/New World/DIM1/data/villages_end.dat
+saves/New World/level.dat
+saves/New World/level.dat_old
+saves/New World/region/r.-1.-1.mca
+saves/New World/region/r.0.-1.mca
+saves/New World/session.lock
+usercache.json
+usernamecache.json
+usercache.json
+usercache.json
+usernamecache.json
+logs/latest.log
+logs/fml-junk-earlystartup.log
+logs/fml-client-latest.log
+logs/fml-client-3.log
+logs/fml-client-2.log
+logs/fml-client-1.log
+crash-reports/crash-2018-05-14_21.58.03-client.txt
+config/splash.properties

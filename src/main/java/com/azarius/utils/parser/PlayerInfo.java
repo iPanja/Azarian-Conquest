@@ -8,6 +8,7 @@ public class PlayerInfo {
 	
 	public void loadJson(){
 		Parser parser = new Parser();
+		@SuppressWarnings("static-access")
 		PlayerInfo object = parser.loadPlayer();
 		
 		username = object.username;
@@ -15,6 +16,7 @@ public class PlayerInfo {
 		money = object.money;
 		xp = object.xp;
 	}
+	@SuppressWarnings("static-access")
 	public void saveJson() {
 		Parser parser = new Parser();
 		parser.savePlayer(this);

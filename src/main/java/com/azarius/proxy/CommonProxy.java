@@ -2,6 +2,7 @@ package com.azarius.proxy;
 
 
 import com.azarius.init.tileentity.TileEntityBloomery;
+import com.azarius.init.tileentity.TileEntityIResearchTable;
 import com.azarius.utils.Reference;
 
 import net.minecraft.item.Item;
@@ -14,6 +15,7 @@ public class CommonProxy {
 	
 	public void registerTileEntity() {
 		GameRegistry.registerTileEntity(TileEntityBloomery.class, Reference.MODID + ":blockbloomery");
+		GameRegistry.registerTileEntity(TileEntityIResearchTable.class, Reference.MODID + ":blockiresearchtable");
 	}
 	public void init() {
 		
