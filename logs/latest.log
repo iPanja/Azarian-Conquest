@@ -1,30 +1,30 @@
-<<<<<<< HEAD
-[19:04:52] [main/INFO]: Setting user: Player535
-[19:04:55] [main/WARN]: Skipping bad option: lastServer:
-[19:04:55] [main/INFO]: LWJGL Version: 2.9.4
-[19:04:58] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Azarian Conquest
-[19:05:03] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[19:05:03] [Thread-5/INFO]: Initializing LWJGL OpenAL
-[19:05:03] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[19:05:03] [Thread-5/INFO]: OpenAL initialized.
-[19:05:04] [Sound Library Loader/INFO]: Sound engine started
-[19:05:07] [main/INFO]: Created: 512x512 textures-atlas
-[19:05:08] [main/WARN]: Skipping bad option: lastServer:
-[19:05:09] [main/INFO]: Narrator library for x64 successfully loaded
-[19:05:09] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[19:05:11] [Server thread/INFO]: Starting integrated minecraft server version 1.12
-[19:05:11] [Server thread/INFO]: Generating keypair
-[19:05:12] [Server thread/INFO]: Loaded 488 advancements
-[19:05:12] [Server thread/INFO]: Preparing start region for level 0
-[19:05:13] [Server thread/INFO]: Changing view distance to 12, from 10
-[19:05:14] [Server thread/INFO]: Player535[local:E:c6e0b9ad] logged in with entity id 126 at (-0.19830896673834825, 6.0, -201.09633378551018)
-[19:05:14] [Server thread/INFO]: Player535 joined the game
-[19:05:14] [Server thread/INFO]: Player535 has reached the goal [Sky's the Limit]
-[19:05:15] [Server thread/INFO]: Saving and pausing game...
-[19:05:15] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[19:05:15] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[19:05:15] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[19:05:15] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@48f17cd[id=11827876-1185-3f24-850d-d0e7a71b9795,name=Player535,properties={},legacy=false]
+[20:25:15] [main/INFO]: Setting user: Player879
+[20:25:18] [main/WARN]: Skipping bad option: lastServer:
+[20:25:18] [main/INFO]: LWJGL Version: 2.9.4
+[20:25:21] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Azarian Conquest
+[20:25:23] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:25:23] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[20:25:23] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:25:24] [Thread-5/INFO]: OpenAL initialized.
+[20:25:24] [Sound Library Loader/INFO]: Sound engine started
+[20:25:27] [main/INFO]: Created: 512x512 textures-atlas
+[20:25:29] [main/WARN]: Skipping bad option: lastServer:
+[20:25:29] [main/INFO]: Narrator library for x64 successfully loaded
+[20:25:29] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[20:25:32] [Server thread/INFO]: Starting integrated minecraft server version 1.12
+[20:25:32] [Server thread/INFO]: Generating keypair
+[20:25:33] [Server thread/INFO]: Loaded 488 advancements
+[20:25:33] [Server thread/INFO]: Preparing start region for level 0
+[20:25:33] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:25:34] [Server thread/INFO]: Player879[local:E:c15c716c] logged in with entity id 75 at (-18.492556421880803, 11.0, -239.36542871423538)
+[20:25:34] [Server thread/INFO]: Player879 joined the game
+[20:25:34] [Server thread/INFO]: Player879 has reached the goal [Sky's the Limit]
+[20:25:35] [Server thread/INFO]: Saving and pausing game...
+[20:25:35] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:25:35] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:25:35] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:25:35] [main/INFO]: [CHAT] Player879 has reached the goal [Sky's the Limit]
+[20:25:35] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@4695c4f9[id=beda00ca-0100-3611-a6b5-c0b153e0dc2e,name=Player879,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -46,35 +46,116 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_131]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_131]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_131]
-[19:05:15] [main/INFO]: [CHAT] Player535 has reached the goal [Sky's the Limit]
-[19:05:15] [main/INFO]: Loaded 5 advancements
-[19:05:18] [main/WARN]: Unable to play empty soundEvent: minecraft:entity.small_slime.squish
-[19:05:18] [main/WARN]: Unable to play empty soundEvent: minecraft:entity.small_slime.jump
-[19:05:40] [Server thread/INFO]: Saving and pausing game...
-[19:05:40] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[19:05:40] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[19:05:40] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[19:05:46] [main/INFO]: Loaded 7 advancements
-[19:06:01] [main/WARN]: Null returned as 'hitResult', this shouldn't happen!
-[19:06:06] [Server thread/INFO]: Saving and pausing game...
-[19:06:06] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[19:06:06] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[19:06:06] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[19:06:31] [Server thread/INFO]: Stopping server
-[19:06:31] [Server thread/INFO]: Saving players
-[19:06:31] [Server thread/INFO]: Player535 lost connection: Disconnected
-[19:06:31] [Server thread/INFO]: Player535 left the game
-[19:06:31] [Server thread/INFO]: Stopping singleplayer server as player logged out
-[19:06:31] [Server thread/INFO]: Saving worlds
-[19:06:31] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
-[19:06:31] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
-[19:06:31] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
-[19:06:32] [main/INFO]: Stopping!
-[19:06:32] [main/INFO]: SoundSystem shutting down...
-[19:06:32] [main/WARN]: Author: Paul Lamb, www.paulscode.com
-=======
-[18:47:32] [main/INFO]: Setting user: Player204
-[18:47:37] [main/WARN]: Skipping bad option: lastServer:
-[18:47:37] [main/INFO]: LWJGL Version: 2.9.4
-[18:47:40] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Azarian Conquest
->>>>>>> 88bc5f12ee755306a2eaf87c52f4ea76b4ad6911
+[20:25:35] [main/INFO]: Loaded 7 advancements
+[20:25:37] [Server thread/INFO]: <Player879> Yeet is now at: 1
+[20:25:37] [main/INFO]: [CHAT] <Player879> Yeet is now at: 1
+[20:25:38] [Server thread/INFO]: <Player879> Yeet is now at: 2
+[20:25:38] [main/INFO]: [CHAT] <Player879> Yeet is now at: 2
+[20:25:38] [Server thread/INFO]: <Player879> Yeet is now at: 3
+[20:25:38] [main/INFO]: [CHAT] <Player879> Yeet is now at: 3
+[20:25:38] [Server thread/INFO]: <Player879> Yeet is now at: 4
+[20:25:39] [main/INFO]: [CHAT] <Player879> Yeet is now at: 4
+[20:25:39] [Server thread/INFO]: <Player879> Yeet is now at: 5
+[20:25:39] [main/INFO]: [CHAT] <Player879> Yeet is now at: 5
+[20:25:39] [Server thread/INFO]: <Player879> Yeet is now at: 6
+[20:25:39] [main/INFO]: [CHAT] <Player879> Yeet is now at: 6
+[20:25:39] [Server thread/INFO]: <Player879> Yeet is now at: 7
+[20:25:39] [main/INFO]: [CHAT] <Player879> Yeet is now at: 7
+[20:25:40] [Server thread/INFO]: Saving and pausing game...
+[20:25:40] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:25:40] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:25:40] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:25:40] [Server thread/INFO]: Stopping server
+[20:25:40] [Server thread/INFO]: Saving players
+[20:25:40] [Server thread/INFO]: Player879 lost connection: Disconnected
+[20:25:40] [Server thread/INFO]: Player879 left the game
+[20:25:40] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[20:25:40] [Server thread/INFO]: Saving worlds
+[20:25:40] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:25:40] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:25:40] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:25:42] [Server thread/INFO]: Starting integrated minecraft server version 1.12
+[20:25:42] [Server thread/INFO]: Generating keypair
+[20:25:42] [Server thread/INFO]: Loaded 488 advancements
+[20:25:42] [Server thread/INFO]: Preparing start region for level 0
+[20:25:43] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:25:43] [Server thread/INFO]: Player879[local:E:1086311d] logged in with entity id 21094 at (-19.506812572494013, 11.0, -239.7123214269338)
+[20:25:43] [Server thread/INFO]: Player879 joined the game
+[20:25:43] [Server thread/INFO]: Saving and pausing game...
+[20:25:43] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:25:43] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:25:43] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:25:43] [main/INFO]: Loaded 7 advancements
+[20:25:44] [Server thread/INFO]: <Player879> Yeet is now at: 1
+[20:25:44] [main/INFO]: [CHAT] <Player879> Yeet is now at: 1
+[20:25:44] [Server thread/INFO]: <Player879> Yeet is now at: 2
+[20:25:44] [main/INFO]: [CHAT] <Player879> Yeet is now at: 2
+[20:25:44] [Server thread/INFO]: <Player879> Yeet is now at: 3
+[20:25:44] [main/INFO]: [CHAT] <Player879> Yeet is now at: 3
+[20:25:45] [Server thread/INFO]: <Player879> Yeet is now at: 4
+[20:25:45] [main/INFO]: [CHAT] <Player879> Yeet is now at: 4
+[20:25:47] [Server thread/INFO]: <Player879> Yeet is now at: 5
+[20:25:47] [main/INFO]: [CHAT] <Player879> Yeet is now at: 5
+[20:25:52] [Server thread/INFO]: <Player879> Yeet is now at: 6
+[20:25:52] [main/INFO]: [CHAT] <Player879> Yeet is now at: 6
+[20:25:53] [Server thread/INFO]: <Player879> Yeet is now at: 7
+[20:25:53] [main/INFO]: [CHAT] <Player879> Yeet is now at: 7
+[20:25:53] [Server thread/INFO]: <Player879> Yeet is now at: 8
+[20:25:53] [main/INFO]: [CHAT] <Player879> Yeet is now at: 8
+[20:25:53] [Server thread/INFO]: <Player879> Yeet is now at: 9
+[20:25:53] [main/INFO]: [CHAT] <Player879> Yeet is now at: 9
+[20:25:58] [Server thread/INFO]: Saving and pausing game...
+[20:25:58] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:25:58] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:25:58] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:27:30] [Server thread/INFO]: <Player879> Yeet is now at: 10
+[20:27:30] [main/INFO]: [CHAT] <Player879> Yeet is now at: 10
+[20:27:31] [Server thread/INFO]: Saving and pausing game...
+[20:27:31] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:27:31] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:27:31] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:27:31] [Server thread/INFO]: Stopping server
+[20:27:31] [Server thread/INFO]: Saving players
+[20:27:31] [Server thread/INFO]: Player879 lost connection: Disconnected
+[20:27:31] [Server thread/INFO]: Player879 left the game
+[20:27:31] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[20:27:31] [Server thread/INFO]: Saving worlds
+[20:27:31] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:27:31] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:27:31] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:27:33] [Server thread/INFO]: Starting integrated minecraft server version 1.12
+[20:27:33] [Server thread/INFO]: Generating keypair
+[20:27:33] [Server thread/INFO]: Loaded 488 advancements
+[20:27:33] [Server thread/INFO]: Preparing start region for level 0
+[20:27:34] [Server thread/INFO]: Changing view distance to 12, from 10
+[20:27:34] [Server thread/INFO]: Player879[local:E:97ce6a79] logged in with entity id 80985 at (-11.866346285423598, 9.5, -232.80000001192093)
+[20:27:34] [Server thread/INFO]: Player879 joined the game
+[20:27:34] [Server thread/INFO]: Saving and pausing game...
+[20:27:34] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:27:34] [main/INFO]: Loaded 7 advancements
+[20:27:34] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:27:34] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:27:35] [Server thread/INFO]: <Player879> Yeet is now at: 1
+[20:27:35] [main/INFO]: [CHAT] <Player879> Yeet is now at: 1
+[20:27:35] [Server thread/INFO]: <Player879> Yeet is now at: 2
+[20:27:35] [main/INFO]: [CHAT] <Player879> Yeet is now at: 2
+[20:27:35] [Server thread/INFO]: <Player879> Yeet is now at: 3
+[20:27:35] [main/INFO]: [CHAT] <Player879> Yeet is now at: 3
+[20:27:35] [Server thread/INFO]: <Player879> Yeet is now at: 4
+[20:27:35] [main/INFO]: [CHAT] <Player879> Yeet is now at: 4
+[20:27:36] [Server thread/INFO]: Saving and pausing game...
+[20:27:36] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:27:36] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:27:36] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:27:36] [Server thread/INFO]: Stopping server
+[20:27:36] [Server thread/INFO]: Saving players
+[20:27:36] [Server thread/INFO]: Player879 lost connection: Disconnected
+[20:27:36] [Server thread/INFO]: Player879 left the game
+[20:27:36] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[20:27:36] [Server thread/INFO]: Saving worlds
+[20:27:36] [Server thread/INFO]: Saving chunks for level 'New World'/overworld
+[20:27:36] [Server thread/INFO]: Saving chunks for level 'New World'/the_nether
+[20:27:36] [Server thread/INFO]: Saving chunks for level 'New World'/the_end
+[20:27:37] [main/INFO]: Stopping!
+[20:27:37] [main/INFO]: SoundSystem shutting down...
+[20:27:37] [main/WARN]: Author: Paul Lamb, www.paulscode.com
