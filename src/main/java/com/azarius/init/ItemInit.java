@@ -20,15 +20,19 @@ public static final List<Item> ITEMS = new ArrayList<Item>();
 	public static final ItemFood glazedDonut = new FoodBase(GeneralItemList.GLAZEDDONUT.getUnlocalizedName(), GeneralItemList.GLAZEDDONUT.getRegistryName(), 2, 0.3F, false, AzarianConquest.tabACFood);
 	//Register Foods
 		//Register Cereals
-		public static final Item amaranth = new ItemBase(FoodList.AMARANTH.getUnlocalizedName(), FoodList.AMARANTH.getRegistryName());
-		public static final Item barley = new ItemBase(FoodList.BARLEY.getUnlocalizedName(), FoodList.BARLEY.getRegistryName());
-		public static final Item buckwheat = new ItemBase(FoodList.BUCKWHEAT.getUnlocalizedName(), FoodList.BUCKWHEAT.getRegistryName());
-		public static final Item millet = new ItemBase(FoodList.MILLET.getUnlocalizedName(), FoodList.MILLET.getRegistryName());
-		public static final Item oats = new ItemBase(FoodList.OATS.getUnlocalizedName(), FoodList.OATS.getRegistryName());
-		public static final Item rice = new ItemBase(FoodList.RICE.getUnlocalizedName(), FoodList.RICE.getRegistryName());
-		public static final Item rye = new ItemBase(FoodList.RYE.getUnlocalizedName(), FoodList.RYE.getRegistryName());
-		public static final Item Sorghum = new ItemBase(FoodList.SORGHUM.getUnlocalizedName(), FoodList.SORGHUM.getRegistryName());
-		public static final Item Triticale = new ItemBase(FoodList.TRITICALE.getUnlocalizedName(), FoodList.TRITICALE.getRegistryName());
+		public static final Item amaranth = new ItemBase(FoodList.AMARANTH.getUnlocalizedName(), FoodList.AMARANTH.getRegistryName(), AzarianConquest.tabACFood);
+		public static final Item barley = new ItemBase(FoodList.BARLEY.getUnlocalizedName(), FoodList.BARLEY.getRegistryName(), AzarianConquest.tabACFood);
+		public static final Item buckwheat = new ItemBase(FoodList.BUCKWHEAT.getUnlocalizedName(), FoodList.BUCKWHEAT.getRegistryName(), AzarianConquest.tabACFood);
+		public static final Item millet = new ItemBase(FoodList.MILLET.getUnlocalizedName(), FoodList.MILLET.getRegistryName(), AzarianConquest.tabACFood);
+		public static final Item oats = new ItemBase(FoodList.OATS.getUnlocalizedName(), FoodList.OATS.getRegistryName(), AzarianConquest.tabACFood);
+		public static final Item rice = new ItemBase(FoodList.RICE.getUnlocalizedName(), FoodList.RICE.getRegistryName(), AzarianConquest.tabACFood);
+		public static final Item rye = new ItemBase(FoodList.RYE.getUnlocalizedName(), FoodList.RYE.getRegistryName(), AzarianConquest.tabACFood);
+		public static final Item sorghum = new ItemBase(FoodList.SORGHUM.getUnlocalizedName(), FoodList.SORGHUM.getRegistryName(), AzarianConquest.tabACFood);
+		public static final Item triticale = new ItemBase(FoodList.TRITICALE.getUnlocalizedName(), FoodList.TRITICALE.getRegistryName(), AzarianConquest.tabACFood);
+		//Register Fish
+		public static final Item barracuda = new ItemBase(FoodList.BARRACUDA.getUnlocalizedName(), FoodList.BARRACUDA.getRegistryName(), AzarianConquest.tabACFood);
+		public static final Item shark = new ItemBase(FoodList.SHARK.getUnlocalizedName(), FoodList.SHARK.getRegistryName(), AzarianConquest.tabACFood);
+		public static final Item salmon = new ItemBase(FoodList.SALMON.getUnlocalizedName(), FoodList.SALMON.getRegistryName(), AzarianConquest.tabACFood);
 		
 	@SubscribeEvent
 	public void onItemRegister(Register<Item> event) {
