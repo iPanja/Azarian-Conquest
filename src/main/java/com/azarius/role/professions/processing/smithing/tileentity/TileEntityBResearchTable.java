@@ -1,6 +1,5 @@
-package com.azarius.init.tileentity;
+package com.azarius.role.professions.processing.smithing.tileentity;
 
-import net.minecraft.client.renderer.texture.ITickable;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
@@ -10,43 +9,30 @@ import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 
-public class TileEntityBloomery extends TileEntity implements ITickable, ICapabilityProvider{
-	private ItemStackHandler handler;
-	private int cooldown;
-	@SuppressWarnings("unused")
-	private boolean isRunning;
-	
-	@SuppressWarnings("unused")
-	private boolean hasBloom;
-	
-	public TileEntityBloomery() {
-		this.cooldown = 0;
-		this.hasBloom=false;
-		this.isRunning=false;
-		this.handler = new ItemStackHandler(2);
-	}
-	
-	@Override
-	public void readFromNBT(NBTTagCompound nbt) {
-		this.cooldown = nbt.getInteger("Cooldown");
-		this.deserializeNBT(nbt.getCompoundTag("ItemStackHandler"));
-		super.readFromNBT(nbt);
-	}
-	
-	@Override
-	public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
-		nbt.setInteger("Cooldown", this.cooldown);
-		nbt.setTag("ItemStackHandler", this.handler.serializeNBT());
-		return super.writeToNBT(nbt);
-	}
+public class TileEntityBResearchTable extends TileEntity implements ICapabilityProvider{
+	private ItemStackHandler handler = new ItemStackHandler(6) {
+        @Override
+        protected void onContentsChanged(int slot) {
+            // We need to tell the tile entity that something has changed so
+            // that the chest contents is persisted
+            TileEntityBResearchTable.this.markDirty();
+        }
+    };
 
-	@Override
-	public void tick() {
-		// TODO Auto-generated method stub
-		this.cooldown++;
-		this.cooldown %= 100;
+    @Override
+    public void readFromNBT(NBTTagCompound compound) {
+        super.readFromNBT(compound);
+        if (compound.hasKey("items")) {
+            handler.deserializeNBT((NBTTagCompound) compound.getTag("items"));
+        }
+    }
 
-	}
+    @Override
+    public NBTTagCompound writeToNBT(NBTTagCompound compound) {
+        super.writeToNBT(compound);
+        compound.setTag("items", handler.serializeNBT());
+        return compound;
+    }
 	
 	@SuppressWarnings("unchecked")
 	@Override
@@ -77,4 +63,5 @@ public class TileEntityBloomery extends TileEntity implements ITickable, ICapabi
             return player.getDistanceSq((double)this.pos.getX() + 0.5D, (double)this.pos.getY() + 0.5D, (double)this.pos.getZ() + 0.5D) <= 64.0D;
         }
     }
+
 }

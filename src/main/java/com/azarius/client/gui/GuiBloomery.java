@@ -1,7 +1,7 @@
 package com.azarius.client.gui;
 
 import com.azarius.containers.ContainerBloomery;
-import com.azarius.init.tileentity.TileEntityBloomery;
+import com.azarius.role.professions.processing.smithing.tileentity.TileEntityBloomery;
 import com.azarius.utils.Reference;
 
 import net.minecraft.client.gui.inventory.GuiContainer;

@@ -4,7 +4,7 @@ import com.azarius.AzarianConquest;
 import com.azarius.client.gui.GuiHandler;
 import com.azarius.init.BlockInit;
 import com.azarius.init.ItemInit;
-import com.azarius.init.tileentity.TileEntityBResearchTable;
+import com.azarius.role.professions.processing.smithing.tileentity.TileEntityBResearchTable;
 import com.azarius.utils.Reference;
 import com.azarius.utils.interfaces.IHasModel;
 

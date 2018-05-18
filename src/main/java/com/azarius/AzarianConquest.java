@@ -25,6 +25,7 @@ public class AzarianConquest
 		}	
 	};
 	
+	
 	public static ACEventHandler handler = new ACEventHandler();
 	
     @Instance

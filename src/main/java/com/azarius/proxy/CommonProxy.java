@@ -1,8 +1,8 @@
 package com.azarius.proxy;
 
 
-import com.azarius.init.tileentity.TileEntityBloomery;
-import com.azarius.init.tileentity.TileEntityIResearchTable;
+import com.azarius.role.professions.processing.smithing.tileentity.TileEntityBloomery;
+import com.azarius.role.professions.processing.smithing.tileentity.TileEntityIResearchTable;
 import com.azarius.utils.Reference;
 
 import net.minecraft.item.Item;

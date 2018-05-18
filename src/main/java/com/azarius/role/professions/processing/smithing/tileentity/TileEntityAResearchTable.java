@@ -1,4 +1,4 @@
-package com.azarius.init.tileentity;
+package com.azarius.role.professions.processing.smithing.tileentity;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
@@ -9,13 +9,13 @@ import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 
-public class TileEntityBResearchTable extends TileEntity implements ICapabilityProvider{
-	private ItemStackHandler handler = new ItemStackHandler(6) {
+public class TileEntityAResearchTable extends TileEntity implements ICapabilityProvider{
+	private ItemStackHandler handler = new ItemStackHandler(11) {
         @Override
         protected void onContentsChanged(int slot) {
             // We need to tell the tile entity that something has changed so
             // that the chest contents is persisted
-            TileEntityBResearchTable.this.markDirty();
+            TileEntityAResearchTable.this.markDirty();
         }
     };
 

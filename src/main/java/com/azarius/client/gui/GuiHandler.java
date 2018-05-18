@@ -4,10 +4,10 @@ import com.azarius.containers.ContainerAResearchTable;
 import com.azarius.containers.ContainerBResearchTable;
 import com.azarius.containers.ContainerBloomery;
 import com.azarius.containers.ContainerIResearchTable;
-import com.azarius.init.tileentity.TileEntityAResearchTable;
-import com.azarius.init.tileentity.TileEntityBResearchTable;
-import com.azarius.init.tileentity.TileEntityBloomery;
-import com.azarius.init.tileentity.TileEntityIResearchTable;
+import com.azarius.role.professions.processing.smithing.tileentity.TileEntityAResearchTable;
+import com.azarius.role.professions.processing.smithing.tileentity.TileEntityBResearchTable;
+import com.azarius.role.professions.processing.smithing.tileentity.TileEntityBloomery;
+import com.azarius.role.professions.processing.smithing.tileentity.TileEntityIResearchTable;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.BlockPos;

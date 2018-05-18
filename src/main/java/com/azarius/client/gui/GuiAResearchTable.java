@@ -2,7 +2,7 @@ package com.azarius.client.gui;
 
 
 import com.azarius.containers.ContainerAResearchTable;
-import com.azarius.init.tileentity.TileEntityAResearchTable;
+import com.azarius.role.professions.processing.smithing.tileentity.TileEntityAResearchTable;
 import com.azarius.utils.Reference;
 
 import net.minecraft.client.gui.inventory.GuiContainer;

@@ -1,7 +1,8 @@
 package com.azarius.containers;
 
 
-import com.azarius.init.tileentity.TileEntityBResearchTable;
+import com.azarius.role.professions.processing.smithing.tileentity.TileEntityBResearchTable;
+
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.IInventory;

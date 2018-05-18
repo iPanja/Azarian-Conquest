@@ -1,4 +1,4 @@
-package com.azarius.init.tileentity;
+package com.azarius.role.professions.processing.smithing.tileentity;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
