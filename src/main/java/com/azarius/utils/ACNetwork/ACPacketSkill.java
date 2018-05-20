@@ -6,10 +6,7 @@ import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 public class ACPacketSkill implements IMessage{
 
 	
-	private boolean messageValid;
-	
 	public ACPacketSkill() {
-		this.messageValid = false;
 	}
 	
 	

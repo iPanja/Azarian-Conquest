@@ -12,8 +12,6 @@ import com.azarius.proxy.CommonProxy;
 import com.azarius.utils.ACEventHandler;
 import com.azarius.utils.Reference;
 import com.azarius.utils.data.ACProfessions;
-import com.azarius.utils.experimental.TestCapabilities;
-
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
@@ -47,7 +45,6 @@ public class AzarianConquest
     @SuppressWarnings("deprecation") //Yeah I know I just can't be bothered to code it the other way...
 	@EventHandler
     public void preInit(FMLPreInitializationEvent e) {
-    	TestCapabilities.registerCapabilities();
     	CapabilityInit.registerCapabilites();
     	ACProfessions.register();
     	
