@@ -18,6 +18,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class BlockInit {
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
+	public static final Block AYN = new BlockBase(OreList.AYN.getUnlocalizedName(), OreList.AYN.getRegistryName(), Material.ROCK);
 	public static final Block EZBATATHORE = new BlockBase(OreList.EZBATATH.getUnlocalizedName(), OreList.EZBATATH.getRegistryName(), Material.ROCK);
 	public static final Block BLOOMERY = new BlockBloomery();
 	public static final Block IRESEARCHTABLE = new BlockIntermediateResearchTable();

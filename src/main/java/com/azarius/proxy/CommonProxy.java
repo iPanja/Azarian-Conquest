@@ -5,7 +5,9 @@ import com.azarius.role.professions.processing.smithing.tileentity.TileEntityBlo
 import com.azarius.role.professions.processing.smithing.tileentity.TileEntityIResearchTable;
 import com.azarius.utils.Reference;
 
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.network.simpleimpl.MessageContext;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class CommonProxy {
@@ -20,5 +22,10 @@ public class CommonProxy {
 	public void init() {
 		
 	}
+	
+	public EntityPlayer getPlayerEntityFromContext(MessageContext ctx){
+	        return ctx.getServerHandler().player;
+	}
+
 	
 }
