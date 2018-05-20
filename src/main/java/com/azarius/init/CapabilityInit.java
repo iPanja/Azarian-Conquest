@@ -1,7 +1,7 @@
 package com.azarius.init;
 
-import com.azarius.api.profession.Profession;
 import com.azarius.init.capabilities.IProfession;
+import com.azarius.init.capabilities.Profession;
 import com.azarius.utils.Reference;
 
 import net.minecraft.entity.Entity;

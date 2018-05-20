@@ -3,8 +3,8 @@ package com.azarius.command;
 import java.util.Collections;
 import java.util.List;
 
-import com.azarius.api.profession.Profession;
 import com.azarius.init.CapabilityInit;
+import com.azarius.init.capabilities.Profession;
 
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.azarius.AzarianConquest;
-import com.azarius.api.bases.FoodBase;
-import com.azarius.api.bases.ItemBase;
+import com.azarius.utils.bases.FoodBase;
+import com.azarius.utils.bases.ItemBase;
 import com.azarius.utils.enums.items.FoodList;
 import com.azarius.utils.enums.items.GeneralItemList;
 

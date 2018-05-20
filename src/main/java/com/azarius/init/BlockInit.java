@@ -3,11 +3,11 @@ package com.azarius.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.azarius.api.bases.BlockBase;
 import com.azarius.role.professions.processing.smithing.block.BlockAdvancedResearchTable;
 import com.azarius.role.professions.processing.smithing.block.BlockBasicResearchTable;
 import com.azarius.role.professions.processing.smithing.block.BlockBloomery;
 import com.azarius.role.professions.processing.smithing.block.BlockIntermediateResearchTable;
+import com.azarius.utils.bases.BlockBase;
 import com.azarius.utils.enums.blocks.OreList;
 
 import net.minecraft.block.Block;
