@@ -59,8 +59,6 @@ public class AzarianConquest
     	
     	FMLCommonHandler.instance().bus().register(handler);
 		MinecraftForge.EVENT_BUS.register(handler);
-		
-		ACCapabilities.registerCapabilities();
     }
 	@EventHandler
     public void init(FMLInitializationEvent e){
