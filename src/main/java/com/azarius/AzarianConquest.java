@@ -4,6 +4,7 @@ import com.azarius.init.ItemInit;
 import com.azarius.proxy.CommonProxy;
 import com.azarius.utils.ACEventHandler;
 import com.azarius.utils.Reference;
+import com.azarius.utils.capabilities.ACCapabilities;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
@@ -16,6 +17,7 @@ import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 @Mod(modid = Reference.MODID, version = Reference.VERSION, name = Reference.NAME)
 public class AzarianConquest
 {
@@ -39,6 +41,8 @@ public class AzarianConquest
     public void preInit(FMLPreInitializationEvent e) {
     	FMLCommonHandler.instance().bus().register(handler);
 		MinecraftForge.EVENT_BUS.register(handler);
+		
+		ACCapabilities.registerCapabilities();
     }
 	@EventHandler
     public void init(FMLInitializationEvent e){

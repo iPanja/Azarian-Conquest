@@ -8,14 +8,4 @@ public class Alchemy extends AProfession{
 	public Alchemy() {
 		super(ProfessionList.ALCHEMY, 2);
 	}
-	public ProfessionList getProfession() {
-		return super.getProfession();
-	}
-	public int getLevel() {
-		return super.getLevel();
-	}
-	public void addXP(int amount) {
-		super.addXP(amount);
-	}
-	
 }

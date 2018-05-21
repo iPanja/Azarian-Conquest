@@ -8,14 +8,4 @@ public class Culinary extends AProfession{
 	public Culinary() {
 		super(ProfessionList.CULINARY, 2);
 	}
-	public ProfessionList getProfession() {
-		return super.getProfession();
-	}
-	public int getLevel() {
-		return super.getLevel();
-	}
-	public void addXP(int amount) {
-		super.addXP(amount);
-	}
-	
 }

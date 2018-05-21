@@ -6,7 +6,7 @@ import net.minecraft.world.storage.WorldSavedData;
 import scala.Console;
 
 public class ACSave extends WorldSavedData{
-	private static final String IDENTIFIER = "AzarianConquest_DATA";
+	private static final String IDENTIFIER = "AC_DATA";
 	
 	//Variables
 	private NBTTagCompound data = new NBTTagCompound();

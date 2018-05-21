@@ -14,17 +14,23 @@ public abstract class AProfession {
 		this.lvl_modifier = lm;
 	}
 	
-	ProfessionList getProfession() {
+	public ProfessionList getProfession() {
 		return profession;
 	}
-	int getLevel() {
+	public int getLevel() {
 		return level;
 	}
-	void addXP(int amount) {
+	public void addXP(int amount) {
 		xp = xp + amount;
 		updateLevel();
 	}
-	void updateLevel() {
+	public void updateLevel() {
 		level = (int) (xp % (Math.pow(level, lvl_modifier)));
+	}
+	public int getXP() {
+		return xp;
+	}
+	public void setXP(int amount) {
+		xp = amount;
 	}
 }
