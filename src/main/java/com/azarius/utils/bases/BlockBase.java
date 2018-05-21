@@ -1,4 +1,4 @@
-package com.azarius.api.bases;
+package com.azarius.utils.bases;
 
 import com.azarius.AzarianConquest;
 import com.azarius.init.BlockInit;
