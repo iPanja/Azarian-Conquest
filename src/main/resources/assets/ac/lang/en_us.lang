@@ -10,6 +10,8 @@ item.rice.name=Rice
 item.rye.name=Rye
 item.sorghum.name=Sorghum
 item.triticale.name=Triticale
+#Vegetable Localization
+item.onion.name=Onion
 #Block Localization
 #Creative Tab Localization
 itemGroup.tabACFood=Foods of Conquest

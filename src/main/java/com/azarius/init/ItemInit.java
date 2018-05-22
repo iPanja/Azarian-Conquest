@@ -33,6 +33,10 @@ public static final List<Item> ITEMS = new ArrayList<Item>();
 		public static final Item barracuda = new ItemBase(FoodList.BARRACUDA.getUnlocalizedName(), FoodList.BARRACUDA.getRegistryName(), AzarianConquest.tabACFood);
 		public static final Item shark = new ItemBase(FoodList.SHARK.getUnlocalizedName(), FoodList.SHARK.getRegistryName(), AzarianConquest.tabACFood);
 		public static final Item salmon = new ItemBase(FoodList.SALMON.getUnlocalizedName(), FoodList.SALMON.getRegistryName(), AzarianConquest.tabACFood);
+		//Register Vegetables
+		public static final Item onion = new ItemBase(FoodList.ONION.getUnlocalizedName(), FoodList.ONION.getRegistryName(), AzarianConquest.tabACFood);
+		//Register Fruits
+		
 		
 	@SubscribeEvent
 	public void onItemRegister(Register<Item> event) {
