@@ -3,6 +3,7 @@ package com.azarius.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.azarius.role.professions.processing.chef.blocks.BlockCuttingBoard;
 import com.azarius.role.professions.processing.smithing.block.BlockAdvancedResearchTable;
 import com.azarius.role.professions.processing.smithing.block.BlockBasicResearchTable;
 import com.azarius.role.professions.processing.smithing.block.BlockBloomery;
@@ -24,6 +25,9 @@ public class BlockInit {
 	public static final Block IRESEARCHTABLE = new BlockIntermediateResearchTable();
 	public static final Block ARESEARCHTABLE = new BlockAdvancedResearchTable();
 	public static final Block BRESEARCHTABLE = new BlockBasicResearchTable();
+	
+	//Cooking Blocks
+	public static final Block CUTTINGBOARD = new BlockCuttingBoard();
 	
 	@SubscribeEvent
 	public void onBlockRegister(Register<Block> event) {
