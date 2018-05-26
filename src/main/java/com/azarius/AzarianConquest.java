@@ -1,14 +1,14 @@
 package com.azarius;
 
-import com.azarius.common.core.proxy.CommonProxy;
-import com.azarius.common.core.proxy.commands.CommandDirt;
-import com.azarius.common.core.proxy.commands.CommandGetLevel;
-import com.azarius.common.core.proxy.commands.CommandGetMana;
-import com.azarius.common.core.proxy.commands.CommandGetXP;
-import com.azarius.common.core.proxy.commands.CommandSetMana;
-import com.azarius.common.core.proxy.commands.CommandSetXP;
+import com.azarius.command.CommandDirt;
+import com.azarius.command.CommandGetLevel;
+import com.azarius.command.CommandGetMana;
+import com.azarius.command.CommandGetXP;
+import com.azarius.command.CommandSetMana;
+import com.azarius.command.CommandSetXP;
 import com.azarius.init.CapabilityInit;
 import com.azarius.init.ItemInit;
+import com.azarius.proxy.CommonProxy;
 import com.azarius.utils.ACEventHandler;
 import com.azarius.utils.Reference;
 import com.azarius.utils.data.ACProfessions;

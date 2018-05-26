@@ -1,8 +1,7 @@
-package com.azarius.client.core.proxy;
+package com.azarius.proxy;
 
 import com.azarius.AzarianConquest;
 import com.azarius.client.gui.GuiHandler;
-import com.azarius.common.core.proxy.CommonProxy;
 import com.azarius.init.BlockAetherite;
 import com.azarius.utils.Reference;
 

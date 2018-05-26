@@ -1,7 +1,9 @@
-package com.azarius.common.core.proxy.commands;
+package com.azarius.command;
 
 import java.util.Collections;
 import java.util.List;
+
+import com.azarius.init.CapabilityInit;
 
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;
@@ -10,15 +12,10 @@ import net.minecraft.entity.Entity;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
-import net.minecraft.world.World;
+import net.minecraft.util.text.TextFormatting;
 
-public class CommandDirt implements ICommand{
+public class CommandGetLevel implements ICommand{
 
-	World world;
-	Entity player;
-	int dirt;
-	
-	
 	@Override
 	public int compareTo(ICommand o) {
 		// TODO Auto-generated method stub
@@ -28,37 +25,58 @@ public class CommandDirt implements ICommand{
 	@Override
 	public String getName() {
 		// TODO Auto-generated method stub
-		return "test";
+		return "getLevel";
 	}
 
 	@Override
 	public String getUsage(ICommandSender sender) {
 		// TODO Auto-generated method stub
-		return "some shit";
+		return "gets level";
 	}
 
 	@Override
 	public List<String> getAliases() {
 		// TODO Auto-generated method stub
-		return Collections.singletonList("ac");
+		return Collections.singletonList("gl");
 	}
-
+	Entity player;
+	String tag;
+	int exp;
+	int level;
 	@Override
 	public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
-		world = sender.getEntityWorld();
-		
-		if (world.isRemote) {}else {
-			if (args.length != 1) {
-				sender.sendMessage(new TextComponentString("Invalid Number of Arguments"));
-				return;
-			}
-			
-			player = sender.getCommandSenderEntity();
-			dirt =  Integer.parseInt(args[0]);
-			
-			sender.sendMessage(new TextComponentString("" + dirt));
+		if (args.length != 1) {
+			sender.sendMessage(new TextComponentString("Invalid Number of Arguments"));
+			return;
 		}
 		
+		player = sender.getCommandSenderEntity();
+		tag = args[0];
+		String role = null;
+		
+		exp = CapabilityInit.getHandler(player).getXP(tag);
+		player.sendMessage(new TextComponentString("" + exp));
+		
+		level = CapabilityInit.getHandler(player).getProfessionLevel(tag, exp);
+		player.sendMessage(new TextComponentString("" + level));
+		
+		if(tag.equalsIgnoreCase("WV")) {
+			role = " Weaver";
+		}if (tag.equalsIgnoreCase("CL")) {
+			role = " Culinarian";
+		}if (tag.equalsIgnoreCase("BS")) {
+			role = " BlackSmith";
+		}if (tag.equalsIgnoreCase("AS")) {
+			role = " ArmorSmith";
+		}if (tag.equalsIgnoreCase("LH")) {
+			role = " Leatherworker";
+		}if (tag.equalsIgnoreCase("CA")) {
+			role = " Carpenter";
+		}
+		
+		player.sendMessage(new TextComponentString(TextFormatting.GRAY + "You are a level " + TextFormatting.GOLD + TextFormatting.BOLD + level + TextFormatting.RESET + TextFormatting.GRAY + role));
+		
+
 		
 	}
 

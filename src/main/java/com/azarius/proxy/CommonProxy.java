@@ -1,4 +1,4 @@
-package com.azarius.common.core.proxy;
+package com.azarius.proxy;
 
 
 import com.azarius.role.professions.processing.smithing.tileentity.TileEntityBloomery;
