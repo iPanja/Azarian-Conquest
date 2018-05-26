@@ -1,4 +1,4 @@
-package com.azarius.command;
+package com.azarius.common.core.proxy.commands;
 
 import java.util.Collections;
 import java.util.List;

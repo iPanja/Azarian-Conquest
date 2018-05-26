@@ -1,0 +1,11 @@
+{
+    "forge_marker": 1,
+	"defaults": {
+		"model": "ac:crystal.obj"},
+	
+	
+	
+	"variants": {
+        "normal": { "model": "ac:blockaetherite" }
+    }
+}

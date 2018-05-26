@@ -1,7 +1,9 @@
-package com.azarius.command;
+package com.azarius.common.core.proxy.commands;
 
 import java.util.Collections;
 import java.util.List;
+
+import com.azarius.init.CapabilityInit;
 
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;
@@ -12,12 +14,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
 
-public class CommandDirt implements ICommand{
+public class CommandGetXP implements ICommand {
 
 	World world;
 	Entity player;
-	int dirt;
-	
+	CapabilityInit cap;
+	int exp;
 	
 	@Override
 	public int compareTo(ICommand o) {
@@ -28,37 +30,55 @@ public class CommandDirt implements ICommand{
 	@Override
 	public String getName() {
 		// TODO Auto-generated method stub
-		return "test";
+		return "getXP";
 	}
 
 	@Override
 	public String getUsage(ICommandSender sender) {
 		// TODO Auto-generated method stub
-		return "some shit";
+		return "gets xp";
 	}
 
 	@Override
 	public List<String> getAliases() {
 		// TODO Auto-generated method stub
-		return Collections.singletonList("ac");
+		return Collections.singletonList("gxp");
 	}
 
 	@Override
 	public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
 		world = sender.getEntityWorld();
-		
+		String tag = "UNSET";
 		if (world.isRemote) {}else {
 			if (args.length != 1) {
 				sender.sendMessage(new TextComponentString("Invalid Number of Arguments"));
 				return;
 			}
 			
-			player = sender.getCommandSenderEntity();
-			dirt =  Integer.parseInt(args[0]);
 			
-			sender.sendMessage(new TextComponentString("" + dirt));
+			if (args[0].equalsIgnoreCase("WV") || args[0].equalsIgnoreCase("CL") || args[0].equalsIgnoreCase("BS") || args[0].equalsIgnoreCase("AS") || args[0].equalsIgnoreCase("LH") || args[0].equalsIgnoreCase("CA") ||(args[0].equalsIgnoreCase("AL"))) {
+			
+			player = sender.getCommandSenderEntity();
+			exp = CapabilityInit.getHandler(player).getXP(args[0]);
+			
+			if(args[0].equalsIgnoreCase("WV")) {
+				tag = "Weaving";
+			}if (args[0].equalsIgnoreCase("CL")) {
+				tag = "Culinary";
+			}if (args[0].equalsIgnoreCase("BS")) {
+				tag = "BlackSmithing";
+			}if (args[0].equalsIgnoreCase("AS")) {
+				tag = "ArmorSmithing";
+			}if (args[0].equalsIgnoreCase("LH")) {
+				tag = "Leatherworking";
+			}if (args[0].equalsIgnoreCase("CA")) {
+				tag = "Carpentry";
+			}
+			
+			
+			sender.sendMessage(new TextComponentString("Your current " + tag + " EXP is " + exp));
+			}
 		}
-		
 		
 	}
 

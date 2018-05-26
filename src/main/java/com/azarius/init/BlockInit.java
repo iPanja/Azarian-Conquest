@@ -25,6 +25,7 @@ public class BlockInit {
 	public static final Block IRESEARCHTABLE = new BlockIntermediateResearchTable();
 	public static final Block ARESEARCHTABLE = new BlockAdvancedResearchTable();
 	public static final Block BRESEARCHTABLE = new BlockBasicResearchTable();
+	public static final Block AETHERITE = new BlockAetherite();
 	
 	//Cooking Blocks
 	public static final Block CUTTINGBOARD = new BlockCuttingBoard();

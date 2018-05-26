@@ -1,11 +1,9 @@
-package com.azarius.command;
+package com.azarius.common.core.proxy.commands;
 
 import java.util.Collections;
 import java.util.List;
 
 import com.azarius.utils.data.ACProfessions;
-import com.azarius.utils.data.ACProfessions.DefaultManaHandler;
-
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
@@ -15,7 +13,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
 
-public class CommandSetMana implements ICommand{
+public class CommandGetMana implements ICommand{
 
 	@Override
 	public int compareTo(ICommand o) {
@@ -26,43 +24,34 @@ public class CommandSetMana implements ICommand{
 	@Override
 	public String getName() {
 		// TODO Auto-generated method stub
-		return "setMana";
+		return "getMana";
 	}
 
 	@Override
 	public String getUsage(ICommandSender sender) {
 		// TODO Auto-generated method stub
-		return "smana";
+		return "mana";
 	}
 
 	@Override
 	public List<String> getAliases() {
 		// TODO Auto-generated method stub
-		return Collections.singletonList("smana");
+		return Collections.singletonList("gmana");
 	}
 	World world;
 	int mana = 0;
 	ACProfessions professions;
-	DefaultManaHandler handler;
 	@Override
 	public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
-	/*	if (world.isRemote) {}else {
-			if (args.length != 1) {
-				sender.sendMessage(new TextComponentString("Invalid Number of Arguments"));
-				return;
-			}*/
-			mana = Integer.parseInt(args[0]);
-			
 			if(sender.getCommandSenderEntity().hasCapability(ACProfessions.CAPABILITY_MANA, EnumFacing.DOWN)) {
 				System.out.println("YOU ARE A WIZARD");
-				sender.getCommandSenderEntity().getCapability(ACProfessions.CAPABILITY_MANA, EnumFacing.DOWN).setMana(mana);
-				
-				System.out.println(mana);
+				ACProfessions.getHandler(sender.getCommandSenderEntity()).getMana();
+				System.out.println(ACProfessions.getHandler(sender.getCommandSenderEntity()).getMana());
 				sender.sendMessage(new TextComponentString("You have " + ACProfessions.getHandler(sender.getCommandSenderEntity()).getMana() + " mana"));
 			}
-			
+			//mana = Integer.parseInt(args[0]);
+
 		}
-	//}
 
 	@Override
 	public boolean checkPermission(MinecraftServer server, ICommandSender sender) {
